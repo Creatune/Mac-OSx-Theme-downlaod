@@ -24,4 +24,10 @@ os.system('sudo apt-get install software-properties-common')
 os.system('sudo add-apt-repository universe')
 os.system('sudo apt-get update')
 os.system('sudo apt-get install gnome-tweak-tool')
+os.system('sudo add-apt-repository ppa:noobslab/macbuntu')                                                    
+os.system('sudo apt-get update')                                                                              
+os.system('sudo apt-get install macbuntu-os-icons-v1804')                                                     
+os.system('sudo apt-get install macbuntu-os-ithemes-v1804')                                                   
+                                                                                                              
+message_box('','The installation is complete! Use the gnome-tweaks-tool to activate whichever MacOSx theme you want.')
 
